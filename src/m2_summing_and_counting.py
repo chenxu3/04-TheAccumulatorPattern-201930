@@ -8,8 +8,8 @@ in another classic form:
    IN GRAPHICS:   x = x + pixels
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Chenxu Yang.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 # -----------------------------------------------------------------------------
@@ -67,9 +67,28 @@ def run_test_sum_more_cosines():
         print('       actual:  ', answer)
 
     # -------------------------------------------------------------------------
-    # TODO: 2 (continued).
+    # Done: 2 (continued).
     # Below this comment, add 2 more test cases of your own choosing.
     # -------------------------------------------------------------------------
+    # Test 2
+    expected = 1.99923
+    answer = sum_more_cosines(1,2)
+    print('Test 2 expected:', expected, '(approximately)')
+    if answer is not None:
+        print('actual',round(answer,5))
+    else:
+        print('actual',answer)
+
+    # Test  3
+
+    expected = -0.41614
+    answer = sum_more_cosines(2, 2)
+    print('Test 2 expected:', expected, '(approximately)')
+    if answer is not None:
+        print('actual', round(answer, 5))
+    else:
+        print('actual', answer)
+
 
 
 def sum_more_cosines(m, n):
@@ -99,6 +118,7 @@ def sum_more_cosines(m, n):
     #   Reason: To ensure that you get more practice using expressions.
     # -------------------------------------------------------------------------
 
+def
 
 def run_test_count_sines_from():
     """ Tests the   count_sines_from   function. """
